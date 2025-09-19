@@ -1,3 +1,64 @@
 <resources>
     <string name="app_name">Pix Payment Clone</string>
+
+    <string name="action_back">Voltar</string>
+    <string name="action_continue">Continuar</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_share">Compartilhar</string>
+    <string name="action_copy">Copiar</string>
+    <string name="label_loading">Carregando…</string>
+    <string name="label_try_again">Tentar novamente</string>
+    <string name="label_done">Concluir</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Área Pix</string>
+    <string name="dashboard_action_transfer">Transferir</string>
+    <string name="dashboard_action_qr">Pagar com QR</string>
+    <string name="dashboard_action_history">Histórico</string>
+    <string name="dashboard_action_contacts">Contatos</string>
+    <string name="dashboard_action_settings">Configurações</string>
+
+    <!-- Transfer menu -->
+    <string name="transfer_menu_title">Como deseja transferir?</string>
+    <string name="transfer_by_key">Chave Pix</string>
+    <string name="transfer_by_manual">Dados bancários</string>
+
+    <!-- Key -->
+    <string name="transfer_key_title">Informe a chave Pix</string>
+    <string name="transfer_key_hint">CPF, CNPJ, Telefone, E-mail ou EVP</string>
+    <string name="transfer_key_error_invalid">Chave Pix inválida</string>
+
+    <!-- Amount -->
+    <string name="transfer_amount_title">Informe o valor</string>
+    <string name="transfer_amount_hint">0,00</string>
+    <string name="transfer_amount_error_min">Valor mínimo é R$ 0,01</string>
+
+    <!-- Review -->
+    <string name="transfer_review_title">Revise a transferência</string>
+    <string name="transfer_review_to">Destinatário</string>
+    <string name="transfer_review_key">Chave</string>
+    <string name="transfer_review_amount">Valor</string>
+    <string name="transfer_review_desc">Descrição (opcional)</string>
+
+    <!-- Success / Error -->
+    <string name="transfer_success_title">Transferência enviada</string>
+    <string name="transfer_success_sub">Comprovante disponível</string>
+    <string name="transfer_error_title">Não foi possível concluir</string>
+    <string name="transfer_error_sub">Verifique os dados e tente novamente</string>
+
+    <!-- Receipt -->
+    <string name="receipt_title">Comprovante</string>
+
+    <!-- Contacts -->
+    <string name="contacts_title">Contatos</string>
+    <string name="contacts_search_hint">Buscar contato</string>
+    <string name="empty_contacts">Nenhum contato encontrado</string>
+
+    <!-- History -->
+    <string name="history_title">Histórico</string>
+    <string name="empty_history">Você ainda não tem transferências</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Configurações</string>
 </resources>
